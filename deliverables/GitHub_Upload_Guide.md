@@ -4,14 +4,14 @@
 
 可上传目录：
 
-`/Users/wangzhe/Documents/Codex/2026-10-08/referenced-chatgpt-conversation-this-is-an-2/outputs/IS507_Midterm_Revised`
+`hotel-cancellation-is507-team`（本仓库根目录）
 
 ## 推荐：终端上传整个目录
 
 在下面目录执行。若仓库已经存在，不重复运行创建命令；先查看 `git remote -v` 和 `gh repo view`。
 
 ```sh
-cd "/Users/wangzhe/Documents/Codex/2026-10-08/referenced-chatgpt-conversation-this-is-an-2/outputs/IS507_Midterm_Revised"
+cd hotel-cancellation-is507-team
 gh auth login --hostname github.com --git-protocol https --web
 gh auth status
 gh auth setup-git

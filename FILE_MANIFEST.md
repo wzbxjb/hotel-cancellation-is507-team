@@ -14,8 +14,8 @@ Generated processed CSV/model files are excluded and reproduced by run_all.py. T
 - deliverables/IS507_Midterm_Presentation.pptx
 - deliverables/IS507_Midterm_Report.md
 - deliverables/IS507_Midterm_Report.pdf
-- deliverables/IS507_讲稿与问答理解手册.md
-- deliverables/IS507_讲稿与问答理解手册.txt
+- deliverables/IS507_QA_Handbook.md
+- deliverables/IS507_QA_Handbook.txt
 - deliverables/Rehearsal_and_Team_Guide.md
 - docs/COURSE_REQUIREMENTS.md
 - docs/COURSE_UPDATE_CHECK_LOG.json

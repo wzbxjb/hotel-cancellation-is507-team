@@ -4,15 +4,15 @@ A retrospective benchmark of **booking noncompletion (cancellation / no-show)** 
 
 ## Submitted document (per latest instructor requirements)
 
-- [Preliminary project proposal (PDF, 5 pages)](deliverables/Hotel_Cancellation_Report_Group16.pdf) — Group 16: motivation, problem, related work, data and challenges, baseline/model plan.
-- [Proposal presentation (11 slides)](deliverables/Hotel_Cancellation_Presentation_Group16.pptx) — 8-minute talk with speaker notes.
+- [Project report (PDF, 5 A4 pages)](deliverables/IS507_Midterm_Report.pdf) — Group 16: motivation, problem, related work, data and challenges, baseline and model plan. ([Markdown source](deliverables/IS507_Midterm_Report.md))
+- [Presentation (10 slides + backups)](deliverables/IS507_Midterm_Presentation.pptx) — 8-minute talk with speaker notes.
 
 ## Midterm deliverables
 
-- [English presentation](deliverables/IS507_Midterm_Presentation.pptx): 11 main slides, 4 hidden backups, speaker notes. Speaking targets total 9 minutes 10 seconds; a timed rehearsal is still needed.
+- [English presentation](deliverables/IS507_Midterm_Presentation.pptx): 10 main slides, 5 hidden backups, speaker notes. Speaking targets total 7 minutes 45 seconds; a timed rehearsal is still needed.
 - [Five-page A4 report PDF](deliverables/IS507_Midterm_Report.pdf) and [editable Markdown](deliverables/IS507_Midterm_Report.md).
 - [Rehearsal and role guide](deliverables/Rehearsal_and_Team_Guide.md).
-- [Detailed bilingual handbook](deliverables/IS507_讲稿与问答理解手册.md) and [plain text](deliverables/IS507_讲稿与问答理解手册.txt): 15 slide explanations, 35 Q&As, glossary and numeric reference.
+- [Detailed bilingual handbook](deliverables/IS507_QA_Handbook.md) and [plain text](deliverables/IS507_QA_Handbook.txt): 15 slide explanations, 35 Q&As, glossary and numeric reference.
 - Six previously executed notebooks and source code, with saved results independently reverified for this revision.
 
 Group 16: Zhe Wang and Zhengxuan Du. Both members participate in every stage, including analysis, report writing and presentation preparation. Zhe places greater emphasis on coding and Zhengxuan on slides. Both understand and explain the complete project. Actual completed contributions need an honest record. Submit one team report, after all members join the correct Project Teams group.

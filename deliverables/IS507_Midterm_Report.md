@@ -10,6 +10,8 @@ Can recorded booking information distinguish hotel reservations that complete fr
 
 A booking reserves a room for a future stay. A cancellation calls off the reservation; a no-show means the guest does not arrive. Both create uncertainty about occupancy. We call their combined outcome noncompletion. A useful risk score could help prioritize booking reviews, but we do not measure cancellations prevented or money saved.
 
+**Related work.** Antonio, de Almeida and Nunes (2017) studied cancellation classification on four resort hotels for demand management [3], establishing that cancellation prediction is feasible and operationally relevant. Their data, feature scope and evaluation differ from ours, so their reported performance is not a benchmark for our restricted retrospective setup. Our focus is narrower: probability quality against a simple baseline, with explicit attention to prediction timing and leakage.
+
 ### 2. Data generation, population and observation unit
 
 Antonio, de Almeida and Nunes (2019) released records from the property management systems and booking change logs of two Portuguese hotels [1]. We use the TidyTuesday combined CSV [2]: 119,390 rows and 32 columns, comprising 79,330 city-hotel and 40,060 resort-hotel bookings. Scheduled arrivals span July 2015 to August 2017. One row represents one booking, not one unique guest. The same guest or group may generate multiple rows.
@@ -134,7 +136,7 @@ Validation sensitivities give AUC 0.6517 after training deduplication and 0.6425
 
 The existing paired bootstrap resamples 27 booking-week clusters 400 times with the fitted model fixed. Its central 95% AUC range is 0.6376-0.6822. This is conditional stability under exchangeable weeks, not guaranteed population coverage. It omits training uncertainty and cannot recover unknown guest/group dependence or remove timing and selection bias.
 
-Next, examine the cohort rule and threshold tradeoffs on development data, then collect timestamped original booking inputs and follow every booking to its outcome. Guest/group IDs would support dependence checks. Define review capacity and error costs before evaluating a practical rule on genuinely new data. Added model complexity cannot restore missing historical inputs.
+Next, examine the cohort rule and threshold tradeoffs on development data, then collect timestamped original booking inputs and follow every booking to its outcome. Guest/group IDs would support dependence checks. Define review capacity and error costs before evaluating a practical rule on genuinely new data. Models under consideration include a random forest comparison to capture nonlinear effects and interactions, using the same restricted features and a small prespecified tuning grid; any added complexity will be judged by held-out log loss against the current baseline, not by in-sample fit. Added model complexity cannot restore missing historical inputs.
 
 ### 8. Previously evaluated later period
 
@@ -151,3 +153,5 @@ Submit one team report through the correct Project Teams group, after both membe
 [1] Antonio, N., de Almeida, A., & Nunes, L. (2019). Hotel booking demand datasets. Data in Brief, 22, 41-49. [Source](https://doi.org/10.1016/j.dib.2018.11.126).
 
 [2] TidyTuesday (2020-02-11). Hotels data and field dictionary. [Source](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11).
+
+[3] Antonio, N., de Almeida, A., & Nunes, L. (2017). Predicting hotel booking cancellations to decrease uncertainty and increase revenue. Tourism & Management Studies, 13(2), 25-39.

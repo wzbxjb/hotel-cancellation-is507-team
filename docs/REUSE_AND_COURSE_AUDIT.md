@@ -26,7 +26,7 @@ Old statements that the entire final holdout is unscored apply to the archived m
 | What predict X/Y/loss? | Main slide 4; report page 1 |
 | Challenges | Main slides 5–6 and 11; report pages 2–3 and 5 |
 | How analyze? | Main slides 7–10; report pages 3–4 |
-| 10-minute understandable presentation | 11 main slides, 570-second script budget; needs student rehearsal |
+| 10-minute understandable presentation | 10 main slides, 465-second script budget; needs student rehearsal |
 | At most 5 A4 pages | PDF is exactly 5 A4 pages; Markdown alternative supplied |
 | GitHub code + share URL | Upload-ready project; account credential invalid, no remote created |
 | Fair participation / no AI slop | AI disclosure and complete-project understanding guide; actual contributions left to authors |

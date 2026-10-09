@@ -1,6 +1,6 @@
 # Midterm submission checklist
 
-Prepared: five-page A4 PDF, matching Markdown, 11 main-slide PPTX with 4 hidden backups and speaker notes, rehearsal guide, and reproducible analysis code.
+Prepared: five-page A4 PDF, matching Markdown, 10 main-slide PPTX with 5 hidden backups and speaker notes, rehearsal guide, and reproducible analysis code.
 
 Students complete: honest contribution statements and individual components when required; actual timed rehearsal; both members joining the correct Project Teams group; one member submitting the team report; publishing code and providing an accessible GitHub URL.
 

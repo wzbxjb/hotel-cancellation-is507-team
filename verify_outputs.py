@@ -88,7 +88,7 @@ check('Report PDF has five page objects',len(re.findall(rb'/Type\s*/Page\b',pdf)
 with zipfile.ZipFile(ROOT/'deliverables/IS507_Midterm_Presentation.pptx') as z:
     slides=[x for x in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+.xml',x)]
     check('PPTX has 15 total slides',len(slides)==15)
-    check('Four backup slides are hidden',sum(ET.fromstring(z.read(x)).get('show')=='0' for x in slides)==4)
+    check('Five backup slides are hidden',sum(ET.fromstring(z.read(x)).get('show')=='0' for x in slides)==5)
     notes=[x for x in z.namelist() if re.fullmatch(r'ppt/notesSlides/notesSlide\d+.xml',x)]
     check('All 15 slides have notes',len(notes)==15)
     text=' '.join(' '.join(ET.fromstring(z.read(x)).itertext()) for x in slides)
