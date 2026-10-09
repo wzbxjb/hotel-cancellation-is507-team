@@ -68,7 +68,7 @@ Top 10%: 2,255 bookings, 1,304 positives; precision 57.83%, recall 17.70%. This 
 
 ## GitHub submission
 
-The local GitHub CLI was installed, but its existing account credential failed authentication on October 8, 2026. **No remote repository was created or uploaded.** Follow [the exact upload steps](deliverables/GitHub_Upload_Guide.md), then paste the real repository URL in the course submission. The zip is an upload-ready package, not a published repository.
+Team repository (public): https://github.com/wzbxjb/hotel-cancellation-is507-team — uploaded October 9, 2026 with the full commit history (3 commits). This is the single submission link for Project Team 16.
 
 ## Team participation
 
