@@ -30,10 +30,10 @@ We are Group 16, Zhe Wang and Zhengxuan Du. Our midterm question is whether reco
 
 ### 第2页：Why this question? Booking outcomes affect planning
 
-使用安排：40秒；建议Zhengxuan Du讲
+使用安排：50秒；建议Zhengxuan Du讲
 
 英文讲稿：
-A booking reserves a room for a future stay. A cancellation calls off the reservation. A no-show means the guest does not arrive. We call both outcomes noncompletion. For example, a Friday reservation that cancels leaves the hotel less certain about occupancy. We chose this applied prediction question to connect customer behavior with service planning. A score might help prioritize booking reviews. Our study measures prediction quality, without measuring money saved or cancellations prevented.
+A booking reserves a room for a future stay. A cancellation calls off the reservation. A no-show means the guest does not arrive. We call both outcomes noncompletion. For example, a Friday reservation that cancels leaves the hotel less certain about occupancy. We chose this applied prediction question to connect customer behavior with service planning. A score might help prioritize booking reviews. Related work supports feasibility: Antonio and colleagues showed cancellation prediction works on resort hotel data, though with a different scope; it is not our benchmark. Our study measures prediction quality, without measuring money saved or cancellations prevented.
 
 中文理解：预订不是实际入住。客人取消或未到店，都会让酒店对房间使用的预期不准确。我们选择一个有实际业务背景的预测问题，看看客户记录能提供多少信息。潜在用途是安排人工复核；本项目没有实测省钱或减少取消。
 
@@ -74,10 +74,10 @@ Ideally we would predict at reservation creation. At that time, the final status
 
 ### 第6页：Evaluation: our inclusion rule changes the sample
 
-使用安排：65秒；建议Zhe Wang讲
+使用安排：55秒；建议Zhe Wang讲
 
 英文讲稿：
-We derive an estimated booking date by subtracting lead time from arrival. Training uses July 2015 through June 2016. Validation uses July through December 2016. Both final status and planned departure must precede each cutoff. A December cancellation for a February stay has a known outcome but fails our departure rule. The rule limits preferential admission of early cancellations for future stays, while defining a selected population. It excludes about 47 percent of validation candidates. A status-only rule would add 4,080 positives, raising the positive fraction from 26.19 to 42.76 percent. Neither rule guarantees an unbiased sample. The existing later test has already been scored; details are in the backup.
+We derive an estimated booking date by subtracting lead time from arrival. Training uses July 2015 through June 2016. Validation uses July through December 2016. Both final status and planned departure must precede each cutoff. A December cancellation for a February stay has a known outcome but fails our departure rule. The rule limits preferential admission of early cancellations for future stays, while defining a selected population. It excludes about 47 percent of validation candidates. Neither rule guarantees an unbiased sample. The existing later test has already been scored; details are in the backup.
 
 中文理解：我们用到店日期减提前天数推算预订日期。训练是2015年7月至2016年6月；验证是2016年7月至12月。还要求最终状态日期与计划离店日期都在各自截止日前。例如12月已取消、原计划2月入住的订单，标签虽已知，却不符合离店规则。
 
@@ -116,9 +116,20 @@ On 14,088 validation bookings, logistic log loss is 0.5517 versus 0.5800 for the
 
 重点与边界：大约74% accuracy看起来高，因为大多数订单完成入住。模型有一点排序信息，默认报警规则却很差。4.88%是loss相对降幅，不是准确率提升4.88个百分点。
 
-### 第10页：Alert thresholds: more detections mean more false alerts
+### 第10页：Conclusion and next steps
 
-使用安排：90秒；建议Zhengxuan Du讲
+使用安排：50秒；建议Zhengxuan Du讲
+
+英文讲稿：
+Our initial analysis finds limited retrospective ranking and probability improvement. The default alert rule performs poorly, and lower thresholds require explicit choices about false alerts. Original booking-time inputs and a more representative cohort remain unresolved. Our next steps are to examine cohort and error patterns on development data, collect original timestamped inputs and define review capacity before evaluating a practical rule on new bookings. Both members participate in every stage. Zhe places greater emphasis on coding and Zhengxuan on slides, while both understand and explain the full analysis. We are not proposing deployment based on these results. Models under consideration include a random forest comparison with the same restricted features, judged by held-out log loss.
+
+中文理解：现有证据支持：在选定的历史记录中，模型有有限排序与概率评分改善。它不能证明能在创建预订时可靠预测，也不能证明提醒客户会改变结果。
+
+重点与边界：下一步检查开发集中的人群筛选和错误模式，获取最初时点输入，定义复核容量和错误成本，再用新数据评价。下一步是计划，不是已完成成果。
+
+### 备份页A：Alert thresholds: more detections mean more false alerts（原第10页正文，现为备份）
+
+使用安排：仅问答；建议Zhengxuan Du讲
 
 英文讲稿：
 A probability becomes an alert only after choosing a rule. At a 50 percent threshold we detect 11 cases and raise 24 false alerts. At 30 percent we detect 1,058 cases, but raise 1,398 false alerts. At 20 percent recall reaches about 74 percent with 5,353 false alerts. These development checks do not select a business policy: the acceptable cost and review capacity are unknown. Separately, the highest-scored ten percent contains 679 cases among 1,409 bookings, about 48 percent compared with 26 percent overall. It still finds only 18 percent of all cases. The error audit shows that the few default alerts tend to have longer lead times. Those small groups suggest where to investigate, without explaining guest motives.
@@ -127,18 +138,7 @@ A probability becomes an alert only after choosing a rule. At a 50 percent thres
 
 重点与边界：最高分10%选1,409条，其中679条正例，precision=48.19%，recall=18.41%。选中组风险更集中，但多数正例仍在组外，而且整期排序不等于真实每日工作队列。
 
-### 第11页：Conclusion and next steps
-
-使用安排：45秒；建议Zhengxuan Du讲
-
-英文讲稿：
-Our initial analysis finds limited retrospective ranking and probability improvement. The default alert rule performs poorly, and lower thresholds require explicit choices about false alerts. Original booking-time inputs and a more representative cohort remain unresolved. Our next steps are to examine cohort and error patterns on development data, collect original timestamped inputs and define review capacity before evaluating a practical rule on new bookings. Both members participate in every stage. Zhe places greater emphasis on coding and Zhengxuan on slides, while both understand and explain the full analysis. We are not proposing deployment based on these results.
-
-中文理解：现有证据支持：在选定的历史记录中，模型有有限排序与概率评分改善。它不能证明能在创建预订时可靠预测，也不能证明提醒客户会改变结果。
-
-重点与边界：下一步检查开发集中的人群筛选和错误模式，获取最初时点输入，定义复核容量和错误成本，再用新数据评价。下一步是计划，不是已完成成果。
-
-### 第12页：Backup: model settings and sensitivity checks
+### 备份页B：Backup: model settings and sensitivity checks
 
 使用安排：仅问答
 
@@ -149,7 +149,7 @@ L2 logistic regression uses C=1, lbfgs, max_iter=3000 and seed 507. It has 39 en
 
 重点与边界：训练去重改变学习权重；验证去重改变评价人群。Unique validation的Brier=0.1739低于主分析，不能因此宣布模型改善。
 
-### 第13页：Backup: the later period has already been evaluated
+### 备份页C：Backup: the later period has already been evaluated
 
 使用安排：仅问答
 
@@ -160,7 +160,7 @@ On October 8 the frozen protocol evaluated January-May 2017 bookings. There are 
 
 重点与边界：这些结果已经看过，期中正文保留验证结果、备份披露已有测试。以后按测试结果修改模型，就不能再称它是从未查看的独立新测试。
 
-### 第14页：Backup: stability and dependence
+### 备份页D：Backup: stability and dependence
 
 使用安排：仅问答
 
@@ -171,7 +171,7 @@ We resample 27 booking-week clusters 400 times with the fitted model fixed. A we
 
 重点与边界：它表示特定抽样假设下的条件稳定性。没有重训模型，也无法识别跨周重复客人；不能据此保证总体区间覆盖或解决快照与筛选偏差。
 
-### 第15页：Backup: team participation and sources
+### 备份页E：Backup: team participation and sources
 
 使用安排：仅问答
 

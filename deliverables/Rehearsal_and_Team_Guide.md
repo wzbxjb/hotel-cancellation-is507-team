@@ -12,21 +12,20 @@ Group 16：Zhe Wang、Zhengxuan Du。正式报告和幻灯片均为英文。
 
 ## 发言顺序与时间
 
-建议 Zhengxuan Du讲1–3页，Zhe Wang讲4–9页，Zhengxuan Du讲10–11页。Zhe约5分20秒，Zhengxuan约3分50秒。分工可交换，两人都应能解释全部页面。
+建议 Zhengxuan Du讲1–3页，Zhe Wang讲4–9页，Zhengxuan Du讲第10页。Zhe约5分10秒，Zhengxuan约2分35秒。分工可交换，两人都应能解释全部页面。
 
 | 页 | 内容 | 秒 | 建议讲者 |
 |---|---|---:|---|
 | 1 | Hotel Cancellation Prediction | 15 | Zhengxuan Du |
-| 2 | Why this question? Booking outcomes affect planning | 40 | Zhengxuan Du |
+| 2 | Why this question? Booking outcomes affect planning | 50 | Zhengxuan Du |
 | 3 | What data? One row is one reservation | 40 | Zhengxuan Du |
 | 4 | What do we predict? X, Y and a probability | 45 | Zhe Wang |
 | 5 | Challenge: booking-time information is uncertain | 50 | Zhe Wang |
-| 6 | Evaluation: our inclusion rule changes the sample | 65 | Zhe Wang |
+| 6 | Evaluation: our inclusion rule changes the sample | 55 | Zhe Wang |
 | 7 | Preparation and two training-data findings | 50 | Zhe Wang |
 | 8 | Analysis: a constant baseline and logistic regression | 50 | Zhe Wang |
 | 9 | Initial results: modest improvement over the baseline | 60 | Zhe Wang |
-| 10 | Alert thresholds: more detections mean more false alerts | 90 | Zhengxuan Du |
-| 11 | Conclusion and next steps | 45 | Zhengxuan Du |
+| 10 | Conclusion and next steps | 50 | Zhengxuan Du |
 
 ## 教授五问与页面
 

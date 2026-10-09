@@ -142,16 +142,10 @@ Next, examine the cohort rule and threshold tradeoffs on development data, then 
 
 The October 8 frozen protocol evaluated 22,541 January-May 2017 records using the unchanged training-only model. Log loss was 0.5968 versus baseline 0.6328; AUC was 0.6644; recall at 0.5 was 6.62%. Of the 26,565 inherited holdout rows, 3,696 later proxy dates remained unused and 328 window candidates failed eligibility. This supports modest performance in another selected period. We have already seen these results and will not reuse the same set as an unknown test after tuning.
 
-### 9. Team participation and submission
-
-Both members participate in every stage: defining the question, reviewing data, preparing inputs, evaluating models, interpreting results, writing the report and preparing the presentation. Zhe Wang places greater emphasis on coding, while Zhengxuan Du places greater emphasis on slides. Both check the evidence and understand the complete analysis, including its errors and limitations.
-
-Submit one team report through the correct Project Teams group, after both members have joined it. The code package includes six executed notebooks, Python, dependencies and provenance. A real accessible GitHub URL is still required.
-
 ### References
 
-[1] Antonio, N., de Almeida, A., & Nunes, L. (2019). Hotel booking demand datasets. Data in Brief, 22, 41-49. [Source](https://doi.org/10.1016/j.dib.2018.11.126).
+[1] Antonio, N., de Almeida, A., & Nunes, L. (2019). Hotel booking demand datasets. Data in Brief, 22, 41-49. https://doi.org/10.1016/j.dib.2018.11.126
 
-[2] TidyTuesday (2020-02-11). Hotels data and field dictionary. [Source](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11).
+[2] TidyTuesday (2020-02-11). Hotels data and field dictionary. https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11
 
-[3] Antonio, N., de Almeida, A., & Nunes, L. (2017). Predicting hotel booking cancellations to decrease uncertainty and increase revenue. Tourism & Management Studies, 13(2), 25-39.
+[3] Antonio, N., de Almeida, A., & Nunes, L. (2017). Predicting hotel booking cancellations to decrease uncertainty and increase revenue. Tourism & Management Studies, 13(2), 25-39. https://doi.org/10.18089/tms.2017.13203
