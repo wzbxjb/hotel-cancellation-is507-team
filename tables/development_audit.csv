@@ -1,0 +1,13 @@
+check,count
+eligible_development_rows,53953
+zero_total_guests,91
+zero_nights,520
+negative_adr,0
+adr_above_1000,1
+adults_above_10,0
+status_before_booking,0
+negative_lead_time,0
+train_exact_redundant_rows,11395
+validation_exact_redundant_rows,1635
+exact_hash_overlap_train_validation,0
+repeated_guest_rows,2123

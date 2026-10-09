@@ -1,0 +1,4 @@
+capacity_fraction,k,precision_at_k,recall_at_k,tie_rule
+0.05,705,0.5078014184397163,0.09704526972079154,ascending original row_id
+0.1,1409,0.48190205819730303,0.1840607210626186,ascending original row_id
+0.2,2818,0.41731724627395317,0.3187855787476281,ascending original row_id

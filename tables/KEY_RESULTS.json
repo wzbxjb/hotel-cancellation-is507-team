@@ -1,0 +1,12 @@
+{
+  "train_n": 39865,
+  "validation_n": 14088,
+  "train_prevalence": 0.30748777122789417,
+  "validation_prevalence": 0.2618540601930721,
+  "auc": 0.6583626529971357,
+  "recall": 0.0029818378964489,
+  "accuracy": 0.7372231686541738,
+  "holdout_n": 26565,
+  "recommendation": "HOLD",
+  "course_assignment_screenshot_verified": false
+}

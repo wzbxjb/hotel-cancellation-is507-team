@@ -1,0 +1,9 @@
+claim,evidence,status_or_limit,artifact
+Logistic scores show modest discrimination on the eligible retrospective validation cohort.,"AUC 0.6584; Dummy 0.5000; approximate week-bootstrap interval [0.6376, 0.6822].",Supported for this cohort only.,tables/validation_metrics.csv; tables/week_cluster_bootstrap.csv
+The default 0.5 threshold is unsuitable for a high-recall non-completion alert.,"TP=11, FN=3678, recall=0.30%; accuracy=73.72%.",Supported descriptive failure; operational cost still unknown.,figures/04_confusion_matrix.png
+Ranking may be more useful than the default hard decisions.,"Top 10% precision=48.19%, recall=18.41%, overall prevalence=26.19%.",Exploratory retrospective result; capacity and utility unvalidated.,tables/ranking_capacity.csv
+This is a valid deployed reservation-time model.,No original feature snapshots or confirmed creation timestamps.,Not supported; HOLD deployment.,tables/prediction_time_leakage_audit.csv
+A feature causes customers to cancel.,"Observational records, no intervention or identification design.",Not supported.,report/MIDTERM_REPORT_DRAFT.md
+"The same performance applies to all hotels, countries, or future years.",Two specific Portuguese hotels; arrival-window selection; no external validation.,Not supported.,docs/SOURCES.md
+Deduplication resolves repeated-guest dependence.,Exact-row sensitivity is available; guest/group IDs are absent.,Not supported; dependence persists.,tables/development_audit.csv
+Final-test performance is known.,Final holdout not scored.,Not evaluated.,data/processed/HOLDOUT_POLICY.md

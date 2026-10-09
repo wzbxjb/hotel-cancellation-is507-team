@@ -1,0 +1,4 @@
+metric,lower_2_5,upper_97_5,replicates,week_clusters,interpretation
+roc_auc,0.6376076771525911,0.6822468705916431,400,27,"Approximate conditional stability interval; fixed fitted model, exchangeable weeks assumed."
+auc_gain,0.1376076771525912,0.1822468705916431,400,27,"Approximate conditional stability interval; fixed fitted model, exchangeable weeks assumed."
+brier_gain,0.007239518933817427,0.015772718378190564,400,27,"Approximate conditional stability interval; fixed fitted model, exchangeable weeks assumed."

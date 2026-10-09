@@ -1,0 +1,7 @@
+partition,n,booking_min,booking_max
+final_holdout,26565,2017-01-01,2017-08-31
+left_boundary,8778,2013-06-24,2015-06-30
+train,39865,2015-07-01,2016-06-29
+train_unmatured,17610,2015-07-02,2016-06-30
+validation,14088,2016-07-01,2016-12-30
+validation_unmatured,12484,2016-07-01,2016-12-31

@@ -1,0 +1,7 @@
+partition,reservation_status,is_canceled,n
+train,Canceled,1,11671
+train,Check-Out,0,27607
+train,No-Show,1,587
+validation,Canceled,1,3545
+validation,Check-Out,0,10399
+validation,No-Show,1,144

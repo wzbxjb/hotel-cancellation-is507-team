@@ -1,0 +1,7 @@
+partition,status,n,status_before_booking,status_before_arrival,status_equals_departure,status_after_departure
+train,Canceled,19957,0,19531,7,0
+train,Check-Out,36836,0,0,36820,0
+train,No-Show,682,0,1,11,0
+validation,Canceled,9761,0,9570,6,0
+validation,Check-Out,16567,0,0,16567,0
+validation,No-Show,244,0,0,1,0

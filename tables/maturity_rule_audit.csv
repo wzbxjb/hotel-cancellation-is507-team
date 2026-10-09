@@ -1,0 +1,13 @@
+partition,rule,n,non_completion_rate,median_lead_time,canceled,no_show,check_out
+train,primary_both,39865,0.30748777122789417,38.0,11671,587,27607
+train,status_only,45603,0.3945793039931583,50.0,17401,593,27609
+train,additional_status_only,5738,0.9996514464970373,250.0,5730,6,2
+train,departure_only_not_status,0,,,0,0,0
+train,neither_before_cutoff,11872,0.2227931266846361,185.0,2556,89,9227
+train,date_inconsistent,0,,,0,0,0
+validation,primary_both,14088,0.2618540601930721,24.0,3545,144,10399
+validation,status_only,18168,0.4276199911933069,37.0,7622,147,10399
+validation,additional_status_only,4080,1.0,159.0,4077,3,0
+validation,departure_only_not_status,0,,,0,0,0
+validation,neither_before_cutoff,8404,0.2660637791527844,164.0,2139,97,6168
+validation,date_inconsistent,0,,,0,0,0

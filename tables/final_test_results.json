@@ -1,0 +1,99 @@
+{
+  "protocol_sha256": "a9fab843688f6cc5a3a117da472522c3e5620da697e31cf508dd6feed6ed2f97",
+  "model_sha256": "75744a9fb50807106b244254f4f5f4cca9c0ba408a570b5ea028cbf0e05b842d",
+  "heldout_total": 26565,
+  "later_booking_proxy_unused": 3696,
+  "window_candidates": 22869,
+  "maturity_excluded": 328,
+  "eligible_test_rows": 22541,
+  "training_prior": 0.30748777122789417,
+  "booking_min": "2017-01-01",
+  "booking_max": "2017-05-31",
+  "status_max": "2017-08-31",
+  "departure_max": "2017-08-31",
+  "full_row_hash_overlap_train": 0,
+  "full_row_hash_overlap_validation": 0,
+  "duplicate_redundant_test": 3276,
+  "metrics": [
+    {
+      "model": "Dummy prior",
+      "n": 22541,
+      "prevalence": 0.3269153986069828,
+      "log_loss": 0.6328489143579097,
+      "roc_auc": 0.5,
+      "average_precision": 0.3269153986069828,
+      "brier": 0.22041915346620106,
+      "accuracy": 0.6730846013930172,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tn": 15172,
+      "fp": 0,
+      "fn": 7369,
+      "tp": 0
+    },
+    {
+      "model": "Logistic primary",
+      "n": 22541,
+      "prevalence": 0.3269153986069828,
+      "log_loss": 0.5967567892552827,
+      "roc_auc": 0.664444898479343,
+      "average_precision": 0.47142815271393634,
+      "brier": 0.20513867144139825,
+      "accuracy": 0.6816911405882614,
+      "precision": 0.6240409207161125,
+      "recall": 0.06622336816392997,
+      "tn": 14878,
+      "fp": 294,
+      "fn": 6881,
+      "tp": 488
+    }
+  ],
+  "top10": {
+    "capacity_fraction": 0.1,
+    "k": 2255,
+    "positive_count": 1304,
+    "precision_at_k": 0.578270509977827,
+    "recall_at_k": 0.17695752476591126
+  },
+  "subgroups": [
+    {
+      "hotel": "City Hotel",
+      "n": 15196,
+      "prevalence": 0.3607528296920242,
+      "log_loss": 0.6227188649214445,
+      "roc_auc": 0.652687052172994,
+      "average_precision": 0.4921099711985535,
+      "brier": 0.21684743551808844,
+      "accuracy": 0.6515530402737563,
+      "precision": 0.6293222683264177,
+      "recall": 0.08299890550893835,
+      "tn": 9446,
+      "fp": 268,
+      "fn": 5027,
+      "tp": 455
+    },
+    {
+      "hotel": "Resort Hotel",
+      "n": 7345,
+      "prevalence": 0.25690946221919675,
+      "log_loss": 0.5430441001030715,
+      "roc_auc": 0.6724668970913016,
+      "average_precision": 0.40014711748475773,
+      "brier": 0.18091452182813975,
+      "accuracy": 0.7440435670524166,
+      "precision": 0.559322033898305,
+      "recall": 0.017488076311605722,
+      "tn": 5432,
+      "fp": 26,
+      "fn": 1854,
+      "tp": 33
+    }
+  ],
+  "relative_logloss_reduction": 0.05703118751376246,
+  "environment": {
+    "python": "3.11.5",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1"
+  },
+  "interpretation": "Later-period retrospective selected-cohort test; not certified creation-time prediction."
+}

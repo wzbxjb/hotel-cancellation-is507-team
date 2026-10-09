@@ -1,0 +1,9 @@
+column,training_median
+lead_time,38.0
+stays_in_weekend_nights,1.0
+stays_in_week_nights,2.0
+adults,2.0
+children,0.0
+babies,0.0
+arrival_month_sin,0.4999999999999999
+arrival_month_cos,-1.8369701987210294e-16

@@ -1,0 +1,2 @@
+model,iterations,training_rows,encoded_features,C,threshold,intercept
+Logistic primary,46,39865,39,1,0.5,-0.4170826587866982
