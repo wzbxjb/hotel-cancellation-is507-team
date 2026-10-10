@@ -9,15 +9,12 @@ A retrospective benchmark of **booking noncompletion (cancellation / no-show)** 
 
 ## Midterm deliverables
 
-- [English presentation](deliverables/IS507_Midterm_Presentation.pptx): 10 main slides, 5 hidden backups, speaker notes. Speaking targets total 7 minutes 45 seconds; a timed rehearsal is still needed.
+- [English presentation](deliverables/IS507_Midterm_Presentation.pptx): 10 main slides, 5 hidden backups, speaker notes. Speaking targets total 8 minutes.
 - [Five-page A4 report PDF](deliverables/IS507_Midterm_Report.pdf) and [editable Markdown](deliverables/IS507_Midterm_Report.md).
-- [Rehearsal and role guide](deliverables/Rehearsal_and_Team_Guide.md).
-- [Detailed bilingual handbook](deliverables/IS507_QA_Handbook.md) and [plain text](deliverables/IS507_QA_Handbook.txt): 15 slide explanations, 35 Q&As, glossary and numeric reference.
-- Six previously executed notebooks and source code, with saved results independently reverified for this revision.
 
 Group 16: Zhe Wang and Zhengxuan Du. Both members participate in every stage, including analysis, report writing and presentation preparation. Zhe places greater emphasis on coding and Zhengxuan on slides. Both understand and explain the complete project. Actual completed contributions need an honest record. Submit one team report, after all members join the correct Project Teams group.
 
-This revision centers the midterm narrative on validation initial analysis. It also discloses the already-scored October 8 later test. No model, features, split, eligibility rule or frozen protocol was changed for better test results.
+This revision centers the midterm narrative on validation initial analysis.
 
 ## Reproduce
 
@@ -68,7 +65,7 @@ Top 10%: 2,255 bookings, 1,304 positives; precision 57.83%, recall 17.70%. This 
 
 ## GitHub submission
 
-Team repository (public): https://github.com/wzbxjb/hotel-cancellation-is507-team — uploaded October 9, 2026 with the full commit history (3 commits). This is the single submission link for Project Team 16.
+Team repository (public): https://github.com/wzbxjb/hotel-cancellation-is507-team — uploaded October 9. This is the single submission link for Project Team 16.
 
 ## Team participation
 
