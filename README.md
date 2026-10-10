@@ -1,4 +1,4 @@
-# Hotel Cancellation Prediction — IS 507 Midterm Revision
+# Hotel Cancellation Prediction — IS 507 Midterm
 
 A retrospective benchmark of **booking noncompletion (cancellation / no-show)** in two Portuguese hotels. One row is a booking, not a unique guest. Later snapshots prevent certifying a prediction at reservation creation.
 
